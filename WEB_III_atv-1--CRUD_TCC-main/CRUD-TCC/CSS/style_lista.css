@@ -1,0 +1,32 @@
+table{
+    /* width: 65%; */
+
+    table-layout: fixed;
+    
+    display: grid;
+    place-items: center; /* centraliza tanto vertical quanto horizontalmente */
+    /* height: 100vh; ocupa toda a altura da janela */
+
+    margin-top: 10%; /* ajuste conforme necessário */    
+    
+}
+
+body{
+    background-color: #212529;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    position: absolute;
+    top: 80%;
+    left: 43%; /* Move para o meio da tela */
+    /* transform: translate(-50%, -50%); Ajusta para centralizar */
+    padding: 10px 20px;
+    text-decoration: none;
+}
+button:hover {
+    transform: scale(1.1); /* Aumenta o botão 10% */
+}
